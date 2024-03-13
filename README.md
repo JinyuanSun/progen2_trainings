@@ -39,4 +39,4 @@ with open('mgy_clusters.fa.csv', 'w') as csv_file:
         csv_file.write(f'{record.id},{sequence}\n')
 ```
 
-This script reads each sequence from a FASTA file named `ABH.fasta` and writes the sequences into a CSV file named `ABH.csv`, following the specified CSV structure.
+This script reads each sequence from a FASTA file named `mgy_clusters.fa` and writes the sequences into a CSV file named `mgy_clusters.fa.csv`, following the specified CSV structure.
