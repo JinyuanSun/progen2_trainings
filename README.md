@@ -40,3 +40,17 @@ with open('mgy_clusters.fa.csv', 'w') as csv_file:
 ```
 
 This script reads each sequence from a FASTA file named `mgy_clusters.fa` and writes the sequences into a CSV file named `mgy_clusters.fa.csv`, following the specified CSV structure.
+
+### Demos
+
+1. Training from scratch
+```bash
+python progen_train.py
+```
+This will train a tiny model from scratch using `ABH.fasta` dataset.
+
+2. Fine-tuning ProGen2-base with LoRA
+```bash
+python progen_lora_tdt.py
+```
+This will fine-tune ProGen2-base with LoRA using `tdt.fa` dataset.
